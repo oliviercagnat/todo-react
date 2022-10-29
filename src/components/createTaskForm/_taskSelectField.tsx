@@ -21,6 +21,7 @@ export const TaskSelectField: FC<ISelectField> = (
     disabled = false,
     onChange = (e: SelectChangeEvent) => console.log(e),
   } = props;
+
   return (
     <FormControl fullWidth size="small">
       <InputLabel id={`${name}-id`}>{label}</InputLabel>
